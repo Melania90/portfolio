@@ -1,0 +1,261 @@
+/*****BASE STYLE***/
+
+body {
+  font-family: 'Eczar', serif;
+  background: #12131a;
+  color: #ffffff;
+}
+
+#skills, #about {
+  height: 550px;
+}
+
+#portfolio {
+  height: 1900px;
+}
+
+#contact {
+  height: 300px;
+}
+
+/****Grid****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.half-width2 {
+  width: 600px;
+  float: right;
+
+}
+
+.second-third-width2 {
+  width: 600px;
+  float: right;
+  clear: both;
+}
+
+
+.fourth-width {
+  width: 300px;
+  float: left;
+}
+
+/****Header****/
+
+header {
+  height: 800px;
+  background: url('../img/hero1.png');
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #fa00c9;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #0b1c55;
+  font-size: 20px;
+}
+
+nav {
+  float: right;
+  padding:0 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 1px #0b1c55;
+  font-family:'Roboto Mono', monospace;
+  font-size: 20px;
+  color: #fa00c9;
+  padding-left: 35px;
+}
+
+header h2 {
+  font-family:'Roboto Mono', monospace;
+  font-size: 35px;
+  color: #fa00c9;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 240px 0 200px 50px;
+  text-shadow: 1px 1px #0b1c55;
+  letter-spacing: 5px;
+}
+
+header h2 span {
+  color: #0a9592;
+}
+
+/***skills**/
+
+#skills h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Roboto Mono', monospace;
+  color: #fa00c9;
+}
+
+.fourth-width {
+  text-align: center;
+  margin: 120px 0 80px 0;
+}
+
+#skills img {
+  padding-bottom: 20px;
+}
+
+#skills h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+
+}
+
+#skills p {
+  text-align: justify;
+  padding: 35% 0 10% 0;
+  font-size: 20px;
+}
+
+/*****Work***/
+
+#portfolio h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Roboto Mono', monospace;
+  color: #fa00c9;
+  padding: 8%;
+}
+
+#work1 p {
+  padding: 5% 20% 40%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#work1 h4, #work1 h5 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -1%;
+}
+
+
+#work2 p {
+  padding: 7% 30% 40% 10%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#work2 h4, #work2 h5 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -1%;
+  padding-right: 20%;
+}
+
+#work2 img {
+  padding-left: 8%;
+}
+
+#work3 p {
+  padding: 5% 20% 40%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#work3 h4, #work3 h5 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -1%;
+}
+
+/*****About****/
+
+#about {
+  background: url('../img/mel-about.png')
+
+}
+
+#about h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Roboto Mono', monospace;
+  color: #fa00c9;
+  margin-bottom: 10%;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+/****contact****/
+
+#contact h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Roboto Mono', monospace;
+  color: #fa00c9;
+  padding-top: 5%;
+}
+
+#contact .third-width {
+  float: left;
+}
+
+#contact #email, #contact #follow {
+  margin: 7% 15% 10% 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+#contact h4 {
+  font-family:'Roboto Mono', monospace;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #3e77bf;
+}
+
+#follow ul {
+  list-style: none;
+}
+
+#follow ul li {
+  display: inline-block;
+}
+
+#follow ul img {
+  padding-right: 20%;
+}
+
+#contact #meet {
+  margin: 7% 0 10% 0;
+  text-align: center;
+  font-size: 20px;
+}
+#meet span {
+  color: #3e77bf;
+}
+
+#rights p {
+  clear: both;
+  text-align: center;
+}
